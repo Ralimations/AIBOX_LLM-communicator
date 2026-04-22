@@ -1,0 +1,24 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local runtime logs
+*.log
+
+# Large local model/runtime artifacts
+*.gguf
+*.ggml
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Vendored/build source bundles used for AIbox setup
+offline_agent_demo/llama.cpp-src/
+offline_agent_demo/llama.cpp-master.zip
+
+# Local workspace/output folders
+offline-agent-workspace/
+offline_agent_demo/offline-agent-workspace/
